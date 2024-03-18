@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+</head>
+
+<body style="text-align: center; position: absolute; width:100%;">
+  <form autocomplete="on" style="display: inline-block; position: relative;">
+    <h1>Formulário de Inscrição</h1>
+    <h3>Preencha seus dados</h3>
+    <label for="nome">Nome:</label>
+    <input id="nome" type="text" style="width:300px;"> <br /><br />
+
+    <label for="email">E-mail:</label>
+    <input id="email" type="text" style="width:295px;" required> <br /><br />
+
+    <label for="endereco">Endereço:</label>
+    <input id="endereco" type="text" style="width:278px;"> <br /><br />
+
+    <label for="cidade">Cidade:</label>
+    <input id="cidade" type="text" style="width:293px;"> <br /><br />
+
+    <label for="telefone">Telefone:</label>
+    <input id="ddd" type="text" minlength="1" maxlength="3" style="width:50px;" />
+    <input id="telefone" type="text" minlength="1" maxlength="9" style="width:222px;" /> <br /><br />
+
+    <label for="usuario">Usuário:</label>
+    <input id="usuario" type="text" style="width:288px;" placeholder="Entre com o seu login" required> <br /><br />
+
+    <label for="senha">Senha:</label>
+    <input id="senha" type="password" style="width:300px;" minlength="6" maxlength="8" required /> <br /><br />
+
+    <button id="button" type="submit" style="width:354px; cursor:pointer;" target="_blank">
+      <a href="/login.html" style="text-decoration: none; color: black;">
+        Finalizar minha inscrição
+      </a>
+    </button>
+  </form>
+</body>
+
+</html>
