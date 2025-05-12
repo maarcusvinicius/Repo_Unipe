@@ -1,0 +1,5 @@
+streamlit
+psycopg2
+plotly
+python-dotenv
+pytz
