@@ -1,5 +1,7 @@
 streamlit
 psycopg2
 plotly
+matplotlib
 python-dotenv
 pytz
+seaborn
